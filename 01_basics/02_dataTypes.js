@@ -110,7 +110,34 @@ let str2 = " Bhaykatte"
 
 // === 
 
-console.log("2" == 2);
-console.log("2" === 2);
-console.log(2 !== "2"); // true
+// console.log("2" == 2);
+// console.log("2" === 2);
+// console.log(2 !== "2"); // true
+
+/*-----------------------------------------*/
+
+
+// Stack (Primitive) -> copy of value, Heap (Non-primitive) -> reference of valuew
+
+let youtubename = "hiteshchoudharydotcom"
+let anotherName = youtubename
+
+anotherName = "chaiaurcode"
+
+// console.log(youtubename);
+// console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+userTwo["upi"] = "user@ubl"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+console.log(userOne["upi"])
 
