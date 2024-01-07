@@ -53,5 +53,9 @@ str.charAt(indx) => returns char at index
 str.indexOf('') => returns indx of char
 str.includes("") => true | false
 str.split('on-basis') => splits into array
+str.startsWith(substring) => starts with substring
+str.endsWith(substring) => ends with substring
+indexOF(substring) => returns index of first occurence of substring, returns -1 if not found
+
 
 */
