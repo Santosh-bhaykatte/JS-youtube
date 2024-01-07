@@ -42,13 +42,24 @@ const hundreds = 1000000
 // console.log(Math.max(4, 6, 7, 2))
 
 // Math.random()
-console.log(Math.random())
+// console.log(Math.random())
 
-console.log(Math.floor(Math.random()*10) + 1)
+// console.log(Math.floor(Math.random()*10) + 1)
 
 const min = 10
-const max = 20
+const max = 15
 
-console.log(Math.floor(Math.random() * (max - min) + min))
+// console.log(Math.floor((Math.random() * (max - min))) + min)
+let userNum = prompt("Enter number bet 10 & 15")
+
+const randomNum = Math.floor(Math.random() * (max - min)) + min
+
+// while condition
+
+while(userNum != randomNum){
+    userNum = prompt("wrong input. Try again")
+}
+console.log("correct input")
+
 
 
