@@ -12,6 +12,7 @@ const gameName = new String('hitesh-hc-com')
 console.log(gameName[0])
 console.log(gameName.__proto__)
 
+// console.log(gameName.toLocaleUpperCase())
 
 /* 
 console.log(gameName.length)
