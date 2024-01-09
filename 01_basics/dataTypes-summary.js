@@ -1,6 +1,6 @@
-// Primitive 
+// Primitive dataTypes
 
-// 7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
+// 7 types : Number, String, Boolean, null, undefined, Symbol, BigInt()
 
 const score = 100
 const scoreValue = 100.3
@@ -12,38 +12,37 @@ let userEmail; // undefined
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId)
+// console.log(id === anotherId)
 
 // const bigNumber = BigInt('354666466')
 const bigNumber = 4367287278n
-
 
 
 // JS -> Dynamically typed language
 
 /*-------------------------------------------------*/
 
-// Reference (Non primitive)
+// Reference types (Non primitive)
 
 // Array, Objects, Functions
 
-// arrays
+// array
 const heros = ["shaktiman", "naagraj", "doga"]
 // console.table(heros);
 
-// objects
+// object
 let myObj = {
     name: "hitesh",
     age: 22,
 }
 
-// functions
+// function
 
 const myFunction = function(){
-    console.log("Hello World");
+    console.log("Hello World")
 }
 
 // console.log(typeof myFunction);
-console.log(typeof heros);
+// console.log(typeof heros);
 
 

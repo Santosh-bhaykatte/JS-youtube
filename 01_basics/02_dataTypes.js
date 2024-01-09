@@ -1,27 +1,28 @@
 "use strict"; // treat all JS code as newer version
 
-// alert("HEllO");
+// alert("HELLO SANTOSH");
 
-let age;
-age = 34.4;
+let age; // declaration
+age = 34.4; // initialization
 
 // primitive types
 
 // number => up to 2^53
-// bigInt
+// BigInt(4564435342442)
 // string => "Santosh"
 // boolean => true/false
 
-// null => standalone value
+// null => standalone value | type => object
 // undefined => not known
-// symbol => unique
+// symbol => unique identification
 
 // object
 
-// console.log(typeof undefined) // undefined
+// console.log(typeof (undefined)) // undefined
 // console.log(typeof null) // object
 
 /* ------------------------------------------------ */
+
 // // string, boolean, null, undefined -> number conversion using Number()
 
 // let score = "Hitesh"
@@ -29,20 +30,24 @@ age = 34.4;
 // console.log(typeof(score))
 
 // let valueInNumber = Number(score)
+
 // console.log(typeof valueInNumber)
 
 // // returns NaN => Not a Number
 // console.log(valueInNumber)
 
-// "33" => 33; type => Number
-// "33ab" => NaN; type => Number
+// Important! -
+
+// "33" => 33; type => Number, value => 33
+// "33ab" => NaN; type => Number, value => NaN
 // true => 1; false => 0; type => Number
-// null => 0; number
+// null => 0; type => Number, value => 0
 // undefined => NaN; type => Number
 
 /* ------------------------------------------------ */
-// string -> boolean using Boolean()
-// let isLoggedIn = "";
+// string, number, null -> boolean using Boolean()
+
+// let isLoggedIn = null
 
 // let booleanIsLoggedIn = Boolean(isLoggedIn)
 
@@ -51,20 +56,21 @@ age = 34.4;
 // 1 => true; 0 => false
 // "" => false
 // "hitesh" => true
+// null => false
 
 /* ------------------------------------------------ */
-// number -> string using String()
+// number, boolean, null, undefined -> string using String()
 
-// let number = 33
-
+// let number = 33.43
 // let stringNumber = String(number)
 
 // console.log(stringNumber)
 // console.log(typeof stringNumber)
 
-// number => string
+// number 33.43 => string 33
 // null => null; type => string
 // undefined => undefined; type => string
+// true => true, false => false
 
 /* ------------------------------------------------ */
 
@@ -90,17 +96,17 @@ let str2 = " Bhaykatte"
 // console.log(1 + 2 + "2") // adds 1 & 2 concatenates with "2"
 
 // console.log(+true) // returns 1
-// console.log(+"") // returns 1
+// console.log(+"") // returns 0
 
-/* -------------------------------------- */
+/* ---------------------------------------------- */
 
-// let num1, num2, num3
+// let num1, num2, num3 // allowed
 
 // num1 = num2 = num3 = 2 + 2
 // console.log(num1)
 
 /* -------------------------------------- */
-// console.log("2" > 1)
+// console.log("2" > "1")
 
 // console.log(null > 0)  // false
 // console.log(null == 0) // false
@@ -108,7 +114,7 @@ let str2 = " Bhaykatte"
 
 /* -------------------------------------- */
 
-// === 
+// === -> equality (type check)
 
 // console.log("2" == 2);
 // console.log("2" === 2);
@@ -117,15 +123,20 @@ let str2 = " Bhaykatte"
 /*-----------------------------------------*/
 
 
-// Stack (Primitive) -> copy of value, Heap (Non-primitive) -> reference of valuew
+// Stack (Primitive) -> copy of value, Heap (Non-primitive) -> reference of value
 
-let youtubename = "hiteshchoudharydotcom"
+// stack example
+
+let youtubename = "hiteshchoudharydotcom" // string
 let anotherName = youtubename
 
 anotherName = "chaiaurcode"
 
 // console.log(youtubename);
 // console.log(anotherName);
+
+
+// Heap example
 
 let userOne = {
     email: "user@google.com",

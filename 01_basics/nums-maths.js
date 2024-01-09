@@ -1,7 +1,11 @@
 const score = 400 // number (primitive)
 const anotherScore = 500
 
-// console.log(anotherScore.toString())
+const val = anotherScore.toString()
+
+// console.log(typeof val)
+
+// console.log(typeof anotherScore) // number
 
 /* ++++++++++++++++++++++++++++++++++++++ */
 
@@ -25,14 +29,14 @@ const accountNumber = new Number(2676287192) // another number object
 
 const anotherNum = 248.945
 
-// digits bet 1 - 21
-// console.log(anotherNum.toPrecision(2))
+// digits must be between 1 - 21
+// console.log(anotherNum.toPrecision(3))
 
 /* ++++++++++++++++++++++++++++++++++++++ */
 
 const price = new Number(245)
 
-// digits must be bet 0 -100 
+// digits must be between 0 - 100 
 // console.log(price.toFixed(2))
 
 /* ++++++++++++++++++++++++++++++++++++++ */
@@ -55,6 +59,8 @@ const hundreds = 1000000
 // toLocaleString() => formatting
 
 // console.log(hundreds.toLocaleString('en-IN'))
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 /* ================= Maths ================ */
 
