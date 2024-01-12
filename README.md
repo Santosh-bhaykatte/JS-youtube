@@ -1,2 +1,2 @@
-# JS-youtube
+# JavaScript
 JavaScript series
