@@ -38,7 +38,7 @@ const regularUser = {
 
 // console.log(regularUser.fullname)
 
-// console.log(regularUser.fullname.userFullname["lastname"])
+// console.log(regularUser.fullname.userFullname['lastname'])
 
 // ++++++++++++++++++++++++++++++++++++++++
 
@@ -82,7 +82,4 @@ let users = [
 ]
 
 // console.log(users[1].email)
-
-
-
 

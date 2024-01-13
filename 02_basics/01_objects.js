@@ -21,7 +21,7 @@ const JsUser = {
 
 // console.log(JsUser.email) // Not right way
 
-// console.log(JsUser["email"])
+// console.log(JsUser['email'])
 
 // console.log(JsUser["full name"])
 
@@ -30,7 +30,7 @@ const JsUser = {
 // console.log(JsUser.mySym)  // wrong way
 // console.log(JsUser[mySym]) // right way
 
-// console.log(typeof("mySym")) // => string
+// console.log(typeof('mySym')) // => string
 // console.log(typeof JsUser.mySym)
 
 // ++++++++++++++++++++++++++++++++++++++++++
